@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+
+body {
+   /* font-family: 'Quicksand',sans-serif; */
+   font-family: 'Arial Narrow',sans-serif;
+   margin: 0;
+   padding: 0;
+   
+}
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+}
+nav a:hover {
+   font-weight: bold;
+}
+
+h2 {
+   color: #dba40b;
+}
+ 
+h3 {
+   color: #dba40b;
+}
+ header {
+   text-align: left;
+    display: inline;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.profile{
+	text-align:center;
+}
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #f0da11;
+   text-align: center;
+   color: white;
+}
+nav li {
+   
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+   
+}
+
+ nav {
+   background-color: #dba40b;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+nav a {
+   font-size: 20px;
+   font-weight: 500;
+   text-decoration: none;
+   color: white;
+}
+
+
+main {
+   padding: 20px;
+   overflow: auto;
+   background-color: #eeeac8;
+}
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #dba40b;
+   text-align: center;
+   font-weight: bold;
+}
+
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 4px;
+}
+
+.profile img {
+   width: 150px;
+   object-position:center;
+   border-radius: 6px;
+}
+
+.content {
+	float:left;
+   width: 75%;
+
+}
+aside {
+	float:right;
+   width: 25%;
+   padding-left: 25px;
+
+}
+section{
+   text-align: left;
+}
+* {
+   box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 1000px) {
+   .content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+/* Dropdown */
+.dropbtn {
+ 
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #dba40b;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: rgb(253, 253, 253);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.show {display:block;}
